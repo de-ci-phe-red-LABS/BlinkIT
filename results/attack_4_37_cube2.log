@@ -1,0 +1,22 @@
+ToSC F.1 test vector: a4a0d10502be846e PASS
+
+OpenMP threads: 80
+
+=== attack: k=4  distinguisher 7 S layers, free round -> 8, key recovery at 9 ===
+cube dimension 37 (2^37 chosen tweaks)
+
+trial 0 (cube 2): target round is backward, round key index 0, K = fa6e36e21be25b92
+  column 0 parity table: 32762 / 65536 odd entries
+  column 1 parity table: 32830 / 65536 odd entries
+  column 2 parity table: 32636 / 65536 odd entries
+  column 3 parity table: 32770 / 65536 odd entries
+  column 0: 128 candidate(s) of 2^16   true e222  RECOVERED
+  CANDS 0: b005 833d d66d b00d 56e5 56ed 6a22 c082 9d52 6a2a c08a 9d5a 3085 a6e2 308d 2115 9a25 211d a6ea 03b5 9a2d 03bd f3b2 f3ba edd5 b772 7445 eddd b77a 744d 6d55 6d5d 4775 8442 477d 844a d112 d11a 1aa5 1aad f4c5 1dd2 f4cd 1dda c7f5 eaa2 c7fd c802 c80a eaaa 1552 155a a195 a19d b885 b88d fb32 fb3a 37f2 37fa ae62 ae6a 3805 2ee2 4882 2eea 380d 488a 5e65 04c2 0b35 5e6d 04ca 0b3d 4ff5 4ffd e222 e22a 8335 7bb2 8bb5 7bba 1225 8bbd 122d 5192 e555 92a5 5912 519a e55d 92ad 591a fc45 fc4d 62a2 cf75 3f72 62aa cf7d 3f7a dee5 d665 a915 deed a91d d992 d99a 4002 95d2 400a 95da 0c42 65d5 65dd 0c4a 2662 7cc5 8cc2 7332 266a 7ccd 8cca 733a bff2 bffa 2995 299d
+  column 1:   8 candidate(s) of 2^16   true 6ee9  RECOVERED
+  CANDS 1: da12 9119 9e16 25e2 2aed 61e6 d51d 6ee9
+  column 2:   4 candidate(s) of 2^16   true a6bb  RECOVERED
+  CANDS 2: 59b4 a6bb d1bc 2eb3
+  column 3: 128 candidate(s) of 2^16   true f315  RECOVERED
+  CANDS 3: f337 8340 0340 59b5 a9c2 d9b5 8362 29c2 0362 8d04 a9e0 0d04 739d 29e0 8d26 f39d fd51 7d51 f3bf 73bf 0d26 fd73 270e 7d73 83c8 03c8 272c 83ea 03ea 8d8c fdd9 7dd9 a70e d75b 8dae fdfb 2786 7dfb d779 0d8c 27a4 a72c d117 0dae 575b d7d3 d135 0b48 2142 a142 d7f1 f559 5779 0b6a 2160 5117 f57b a160 a786 7b1d 5135 a7a4 0bc0 f5d1 d19f 7b3f f5f3 0be2 8b48 d1bd 21ca 7559 57d3 8b6a 050c a1ca 850c 757b 21e8 57f1 a1e8 052e 7b95 852e 519f 7bb7 8bc0 294a 75d1 d91f 51bd 2968 0584 d93d 8be2 75f3 8584 05a6 fb1d f315 85a6 df53 fb3f d997 df71 fb95 2f06 fbb7 af06 2f24 af24 dfdb 7315 dff9 5f53 7337 5f71 591f af8e 2f8e a94a afac a968 593d 2fac 5fdb 5ff9 5997
+  -> 4/4 columns recovered
+

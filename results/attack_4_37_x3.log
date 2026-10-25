@@ -1,0 +1,40 @@
+ToSC F.1 test vector: a4a0d10502be846e PASS
+
+OpenMP threads: 60
+
+=== attack: k=4  distinguisher 7 S layers, free round -> 8, key recovery at 9 ===
+cube dimension 37 (2^37 chosen tweaks)
+
+trial 0: target round is backward, round key index 0, K = fa6e36e21be25b92
+  column 0 parity table: 32842 / 65536 odd entries
+  column 1 parity table: 33000 / 65536 odd entries
+  column 2 parity table: 32652 / 65536 odd entries
+  column 3 parity table: 32736 / 65536 odd entries
+  column 0:  16 candidate(s) of 2^16   true e222  RECOVERED
+  column 1:  32 candidate(s) of 2^16   true 6ee9  RECOVERED
+  column 2:  16 candidate(s) of 2^16   true a6bb  RECOVERED
+  column 3:   4 candidate(s) of 2^16   true f315  RECOVERED
+  -> 4/4 columns recovered
+
+trial 1: target round is backward, round key index 0, K = c5eb50696dc660d0
+  column 0 parity table: 32842 / 65536 odd entries
+  column 1 parity table: 32812 / 65536 odd entries
+  column 2 parity table: 32876 / 65536 odd entries
+  column 3 parity table: 32694 / 65536 odd entries
+  column 0:  64 candidate(s) of 2^16   true b960  RECOVERED
+  column 1:  16 candidate(s) of 2^16   true e6cd  RECOVERED
+  column 2:  64 candidate(s) of 2^16   true 50d0  RECOVERED
+  column 3:  32 candidate(s) of 2^16   true c566  RECOVERED
+  -> 4/4 columns recovered
+
+trial 2: target round is backward, round key index 0, K = d483b77bc12ff695
+  column 0 parity table: 32950 / 65536 odd entries
+  column 1 parity table: 32694 / 65536 odd entries
+  column 2 parity table: 33028 / 65536 odd entries
+  column 3 parity table: 32878 / 65536 odd entries
+  column 0:  64 candidate(s) of 2^16   true 3bf5  RECOVERED
+  column 1:   8 candidate(s) of 2^16   true 8729  RECOVERED
+  column 2:  32 candidate(s) of 2^16   true 4716  RECOVERED
+  column 3: 128 candidate(s) of 2^16   true dbcf  RECOVERED
+  -> 4/4 columns recovered
+
